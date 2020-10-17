@@ -5,6 +5,16 @@
 
 #include "pch.h"
 #include "MainPage.xaml.h"
+#include<iostream>
+#include<fstream>
+#include<cstdlib>
+using std::cout;
+using std::cin;
+using std::endl;
+using std::fstream;
+using std::ofstream;
+using std::ifstream;
+using std::ios;
 using namespace RemotePC;
 
 using namespace Platform;
@@ -23,4 +33,5 @@ using namespace Windows::UI::Xaml::Navigation;
 MainPage::MainPage()
 {
 	InitializeComponent();
+	cout << "\nEnter Account Number: ";
 }
