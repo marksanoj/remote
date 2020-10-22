@@ -3,6 +3,8 @@
 // Implementation of the MainPage class.
 //
 
+#include "pch.h"
+#include "MainPage.xaml.h"
 
 using namespace RemotePC;
 
